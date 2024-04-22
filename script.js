@@ -33,4 +33,23 @@ let weather = {
     
 
   },
+  search: function () {
+    this.fetchweather(document.querySelector(".search-bar").value);
+  },
 };
+document.querySelector(".search button").addEventListener("click", function () {
+  weather.search();
+});
+document
+  .querySelector(".search-bar")
+  .addEventListener("keyup", function (event) {
+    if (event.key == "Enter") {
+      weather.search();
+    }
+  });
+weather.fetchweather("Denver");
+document.querySelector(".search-bar").addEventListener("keyup", function (event) {
+  if (event.key == "Enter") {
+    weather.search();
+  }
+})
