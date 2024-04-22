@@ -25,18 +25,18 @@ To run the Weather App locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/Imraanabdi/weather-app.git
    
 TECHNOLOGIES USED
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - OpenWeatherMap API - Used to fetch weather data for cities.
 
  ##CREDITS
 
-This Weather App was created by [Your Name].
+This Weather App was created by [Imran Abdi].
 
 LICENSE
 

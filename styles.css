@@ -67,6 +67,7 @@ button:hover {
 .description {
     text-transform: capitalize;
     margin-left: 8px;
+    font-family: "Happy Monkey", system-ui;
 }
 
 h1.temp {
